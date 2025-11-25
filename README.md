@@ -38,7 +38,7 @@ Pasos de Instalación
 
 Clonar el repositorio
 
-git clone [https://github.com/TU_USUARIO/sistema-gestion-ti.git](https://github.com/TU_USUARIO/sistema-gestion-ti.git)
+git clone [https://github.com/Jason222334/Sistema-Gestion-TI.git](https://github.com/Jason222334/Sistema-Gestion-TI.git)
 cd sistema-gestion-ti
 
 
