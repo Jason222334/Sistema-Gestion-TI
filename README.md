@@ -47,7 +47,7 @@ cd sistema-gestion-ti
 Configurar variables de entorno
 El archivo .env ya viene preconfigurado para el entorno Docker local. Asegúrate de que exista:
 
-# Si no existe, crea uno nuevo con:
+Si no existe:
 cp .env.example .env
 
 
