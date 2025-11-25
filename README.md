@@ -1,6 +1,4 @@
-Sistema de Gestión de Equipos de TI - Universidad
-
-📋 Descripción
+# Sistema de Gestión de Equipos de TI - Universidad
 
 Sistema integral para la gestión de equipos de tecnología en universidades públicas, implementado con una arquitectura de microservicios moderna y escalable. Este proyecto permite administrar el ciclo de vida completo de los activos de TI, desde la compra hasta la baja, incluyendo gestión de proveedores, mantenimientos y reportes avanzados.
 
@@ -8,7 +6,7 @@ Sistema integral para la gestión de equipos de tecnología en universidades pú
 
 El sistema está construido sobre una arquitectura de microservicios contenerizados:
 
-Microservicios
+# Microservicios
 
 API Gateway (Puerto 8000): Punto de entrada único y enrutador de peticiones.
 
@@ -26,7 +24,7 @@ Frontend Streamlit (Puerto 8501): Interfaz de usuario interactiva.
 
 PostgreSQL (Puerto 5432): Base de datos centralizada.
 
-🚀 Instalación y Despliegue
+# 🚀 Instalación y Despliegue
 
 Prerrequisitos
 
@@ -47,7 +45,7 @@ cd sistema-gestion-ti
 Configurar variables de entorno
 El archivo .env ya viene preconfigurado para el entorno Docker local. Asegúrate de que exista:
 
-Si no existe:
+Si no existe, crea uno nuevo con:
 cp .env.example .env
 
 
@@ -62,7 +60,7 @@ Para que el dashboard no aparezca vacío, carga los datos semilla incluidos:
 cat database/datos_semilla.sql | docker-compose exec -T postgres psql -U postgres -d ti_management
 
 
-Acceder a la aplicación
+# Acceder a la aplicación
 
 Frontend (Web App): http://localhost:8501
 
@@ -92,7 +90,7 @@ sistema-gestion-ti/
 └── README.md
 
 
-🗄️ Modelo de Datos
+# 🗄️ Modelo de Datos
 
 El sistema utiliza PostgreSQL con las siguientes entidades principales:
 
@@ -110,7 +108,7 @@ contratos: Acuerdos legales y garantías.
 
 notificaciones: Alertas generadas por los agentes inteligentes.
 
-🔧 Funcionalidades
+# 🔧 Funcionalidades
 
 1. Gestión de Proveedores
 
@@ -156,7 +154,7 @@ notificaciones: Alertas generadas por los agentes inteligentes.
 
 🛠️ Mantenimiento y Comandos Útiles
 
-Ver logs de un servicio:
+# Ver logs de un servicio:
 
 docker-compose logs -f api-gateway
 
@@ -179,8 +177,8 @@ URL: http://localhost:8000/docs
 
 👥 Contacto
 
-Desarrollado por: [Tu Nombre]
+Desarrollado por: [Galvez Luna Jason Anderson]
 Curso: Desarrollo de Aplicaciones Distribuidas
-Universidad: Universidad [Nombre de tu U]
+Universidad: Universidad [UNT]
 
 © 2025 Sistema de Gestión TI
