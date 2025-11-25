@@ -66,29 +66,6 @@ Frontend (Web App): http://localhost:8501
 
 Documentación API (Swagger): http://localhost:8000/docs
 
-📊 Estructura del Proyecto
-
-sistema-gestion-ti/
-├── frontend/                 # Interfaz de Usuario (Streamlit)
-│   ├── pages/
-│   │   ├── 1_📦_Equipos.py
-│   │   ├── 2_🏢_Proveedores.py
-│   │   ├── 3_🔧_Mantenimiento.py
-│   │   └── 4_📊_Reportes.py
-│   └── app.py
-├── services/                 # Microservicios Backend (FastAPI)
-│   ├── api_gateway/
-│   ├── equipos_service/
-│   ├── proveedores_service/
-│   ├── mantenimiento_service/
-│   ├── reportes_service/
-│   └── agent_service/
-├── database/                 # Scripts SQL
-│   ├── schema.sql
-│   └── datos_semilla.sql
-├── docker-compose.yml        # Orquestación
-└── README.md
-
 
 # 🗄️ Modelo de Datos
 
