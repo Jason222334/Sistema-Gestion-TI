@@ -1,0 +1,27 @@
+Byte-compiled / optimized / DLL files
+
+pycache/ *.py[cod] *$py.class
+
+Caches
+
+.pytest_cache/ .mypy_cache/
+
+Virtual environments
+
+venv/ env/ .env .venv/
+
+Docker
+
+docker-compose.override.yml
+
+Database local volume (si existiera carpeta local mapeada)
+
+postgres_data/
+
+IDE specific files
+
+.vscode/ .idea/
+
+OS specific files
+
+.DS_Store Thumbs.db
